@@ -20,7 +20,7 @@ As there are no safeguards, this module SHOULD NOT be used for anything else tha
 
 ## Usage
 ```sh
-$ npm install --save pyradmin
+$ npm install --save pyradmin-node
 ```
 * Set up your restify server.
 * Require all your mongoose models BEFORE requiring pyradmin-node
@@ -31,7 +31,7 @@ var restify = require('restify');
 var server = restify.createServer();
 server.use(restify.queryParser());
 server.use(restify.bodyParser());
-var pyradmin = require('pyradmin')({
+var pyradmin = require('pyradmin-node')({
   basePath: '/admin',
   serverInstance: server
 });
