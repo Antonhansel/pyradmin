@@ -7,5 +7,23 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Antonin Ribeaud",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antonhansel/pyradmin-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "admin",
+    "mongodb",
+    "mongoose",
+    "restify",
+    "models",
+    "documents",
+    "auto"
+  ],
+  "bugs": {
+    "url": "https://github.com/Antonhansel/pyradmin-nodejs/issues"
+  },
+  "homepage": "https://github.com/Antonhansel/pyradmin-nodejs#readme"
 }

@@ -1,21 +1,29 @@
-# Pyradmin
+# Pyradmin-node
 
 Setting up admin routes is an extremly redundant task.
 
 This module does everything for you.
 
 Pyradmin is currently heavily dependent on mongoose and restify.
-It automatically generates routes to administrate the various documents on your MongoDB.
+It automatically generates routes to administrate the various documents in your MongoDB.
 
 ### /!\ Warning /!\
 As there are no safeguards, this module SHOULD NOT be used for anything else than setting up an admin interface. For now.
+
+## Features
+
+* GET all documents - `GET /admin/modelName`
+* POST a new document - `POST /admin/modelName`
+* GET a single document - `GET /admin/modelName/:documentId`
+* UPDATE a single document - `PUT /admin/modelName/:documentId`
+* DELETE a single document - `DEL /admin/modelName/:documentId`
 
 ## Usage
 ```sh
 $ npm install --save pyradmin
 ```
 * Set up your restify server.
-* Require all your mongoose models.
+* Require all your mongoose models BEFORE requiring pyramdin-node
 * Instantiate Pyradmin with your configuration.
 * Profit!
 ```sh
