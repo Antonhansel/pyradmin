@@ -11,6 +11,9 @@ It automatically generates routes to administrate the various documents on your 
 As there are no safeguards, this module SHOULD NOT be used for anything else than setting up an admin interface. For now.
 
 ## Usage
+```sh
+$ npm install --save pyradmin
+```
 * Set up your restify server.
 * Require all your mongoose models.
 * Instantiate Pyradmin with your configuration.
