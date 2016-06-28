@@ -18,6 +18,12 @@ As there are no safeguards, this module SHOULD NOT be used for anything else tha
 * UPDATE a single document - `PUT /admin/modelName/:documentId`
 * DELETE a single document - `DEL /admin/modelName/:documentId`
 
+### Misc
+
+* GET the global config of the DB (schemas) - `GET /admin/config`
+* GET stats about the DB - `GET /admin/stats`
+* GET the status of the DB - `GET /admin/status`
+
 ## Usage
 ```sh
 $ npm install --save pyradmin-node
