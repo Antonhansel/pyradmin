@@ -1,6 +1,6 @@
 {
   "name": "pyradmin-node",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A NodeJS module to generate REST admin routes for mongo models",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Antonhansel/pyradmin-nodejs.git"
+    "url": "git+https://github.com/Antonhansel/pyradmin-node.git"
   },
   "keywords": [
     "nodejs",
@@ -23,9 +23,9 @@
     "auto"
   ],
   "bugs": {
-    "url": "https://github.com/Antonhansel/pyradmin-nodejs/issues"
+    "url": "https://github.com/Antonhansel/pyradmin-node/issues"
   },
-  "homepage": "https://github.com/Antonhansel/pyradmin-nodejs#readme",
+  "homepage": "https://github.com/Antonhansel/pyradmin-node#readme",
   "dependencies": {
     "async": "^1.5.2"
   }
