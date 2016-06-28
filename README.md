@@ -23,7 +23,7 @@ As there are no safeguards, this module SHOULD NOT be used for anything else tha
 $ npm install --save pyradmin
 ```
 * Set up your restify server.
-* Require all your mongoose models BEFORE requiring pyramdin-node
+* Require all your mongoose models BEFORE requiring pyradmin-node
 * Instantiate Pyradmin with your configuration.
 * Profit!
 ```sh
