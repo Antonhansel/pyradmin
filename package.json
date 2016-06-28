@@ -1,6 +1,6 @@
 {
   "name": "pyradmin-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A NodeJS module to generate REST admin routes for mongo models",
   "main": "index.js",
   "scripts": {
